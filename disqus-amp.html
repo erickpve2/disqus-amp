@@ -35,11 +35,11 @@ function getQueryVariable(variable) {
   return(false);
 }
 var disqus_config = function () {
-  this.page.url = getQueryVariable("url");
+  this.page.url = getQueryVariable("http://apuntesdeerick.blogspot.pe/");
 };
 (function() {
   var d = document, s = d.createElement('script');
-  s.src = 'erick.disqus.com/embed.js' + getQueryVariable("shortname") + '.disqus.com/embed.js';
+  s.src = 'https://erickpve.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
 })();
