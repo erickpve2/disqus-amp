@@ -34,8 +34,8 @@ function receiveMessage(event)
  return(false);
  }
  var disqus_config = function () {
- this.page.url = decodeURIComponent(getQueryVariable("http://apuntesdeerick.blogspot.com/")); // Replace PAGE_URL with your page's canonical URL variable
- this.page.identifier = decodeURIComponent(getQueryVariable("4035329751675901686")); // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+ this.page.url = decodeURIComponent(getQueryVariable("url")); // Replace PAGE_URL with your page's canonical URL variable
+ this.page.identifier = decodeURIComponent(getQueryVariable("identifier")); // Replace PAGE_IDENTIFIER with your page's unique identifier variable
  };
  (function() { // DON'T EDIT BELOW THIS LINE
  var d = document, s = d.createElement('script');
